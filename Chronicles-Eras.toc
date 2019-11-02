@@ -1,0 +1,16 @@
+## Interface: 80205
+
+## Title: Chronicles - Eras
+## Title-frFR: Chronicles - Epoques
+## Notes: Add eras to the Chronicles timeline
+## Notes-frFR: Description
+
+## Author: ciaanh
+## Version: v0.1
+## RequiredDeps: Chronicles
+## DefaultState: enabled
+## X-License: MIT
+## X-Category: Data
+
+Locales\Locales.xml
+DB.lua
