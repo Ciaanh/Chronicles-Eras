@@ -3,5 +3,6 @@ local L = AceLocale:NewLocale("Chronicles - Eras", "enUS", true, true);
 
 if L then
     L["Black Empire"] = "The Black Empire"
-    L["Black Empire description"] = "<HTML><BODY><BR/><BR/><H1 align=\"center\">Black Empire</H1></BODY></HTML>"
+    L["Black Empire page 1"] = "<HTML><BODY><BR/><BR/><H1 align=\"center\">Black Empire page 1</H1></BODY></HTML>"
+    L["Black Empire page 2"] = "<HTML><BODY><BR/><BR/><H1 align=\"center\">Black Empire page 2</H1></BODY></HTML>"
 end
