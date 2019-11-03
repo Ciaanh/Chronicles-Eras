@@ -24,7 +24,7 @@ DB = {
 	--[[ structure:
 		[eventId] = {
 			label=[string], 			-- label: text that'll be the label
-			description=[string], 		-- description: text that give informations about the event
+			description=table[string], 	-- description: text that give informations about the event
 			icon=[string], 				-- the pre-define icon type which can be found in Constant.lua
 			yearStart=[integer],		-- 
 			yearEnd=[integer],			-- 
@@ -34,7 +34,10 @@ DB = {
 	--]]
 	[1] = {
 		label = L["Black Empire"],
-		description = L["Black Empire description"],
+		description = {
+			L["Black Empire page 1"],
+			L["Black Empire page 2"]		
+		},
 		icon = "research",
 		yearStart = -7000,
 		yearEnd = -6500,
