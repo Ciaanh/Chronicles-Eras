@@ -32,7 +32,7 @@ DB = {
 	--]]
 	[1] = {
 		id = 1,
-		label = L["Black Empire"],
+		label = L["Black Empire label"],
 		description = {
 			L["Black Empire page 1"],
 			L["Black Empire page 2"]
