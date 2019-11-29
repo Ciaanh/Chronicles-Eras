@@ -24,7 +24,6 @@ DB = {
 			id=[integer],				-- Id of the event
 			label=[string], 			-- label: text that'll be the label
 			description=table[string], 	-- description: text that give informations about the event
-			icon=[string], 				-- the pre-define icon type which can be found in Constant.lua
 			yearStart=[integer],		-- 
 			yearEnd=[integer],			-- 
 			eventType=[string],			-- type of event defined in constants
@@ -37,7 +36,6 @@ DB = {
 			L["Black Empire page 1"],
 			L["Black Empire page 2"]
 		},
-		icon = "research",
 		yearStart = -7000,
 		yearEnd = -6500,
 		eventType = constants.eventType.era
