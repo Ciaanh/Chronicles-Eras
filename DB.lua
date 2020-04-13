@@ -31,13 +31,13 @@ DB = {
 	--]]
 	[1] = {
 		id = 1,
-		label = L["Black Empire label"],
+		label = L["Test event era label"],
 		description = {
-			L["Black Empire page 1"],
-			L["Black Empire page 2"]
+			L["Test event era page 1"],
+			L["Test event era page 2"]
 		},
-		yearStart = -7000,
-		yearEnd = -6500,
+		yearStart = -150000,
+		yearEnd = -149000,
 		eventType = constants.eventType.era
 	}
 }
