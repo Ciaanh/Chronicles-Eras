@@ -37,7 +37,18 @@ DB = {
 			L["Test event era page 2"]
 		},
 		yearStart = -150000,
-		yearEnd = -149000,
+		yearEnd = -149001,
+		eventType = constants.eventType.era
+	},
+	[2] = {
+		id = 2,
+		label = L["Test event era label 2"],
+		description = {
+			L["Test event era 2 page 1"],
+			L["Test event era 2 page 2"]
+		},
+		yearStart = -10005,
+		yearEnd = -10005,
 		eventType = constants.eventType.era
 	}
 }
